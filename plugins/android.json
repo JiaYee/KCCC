@@ -1,0 +1,94 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com-sarriaroman-photoviewer": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "com.hutchind.cordova.plugins.streamingmedia": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "com.moust.cordova.videoplayer": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-base64-to-gallery": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-filepath": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-http": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-image-picker": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-video-editor": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "info.protonet.imageresizer": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-actionsheet": {
+      "PACKAGE_NAME": "com.chrysasys.kccc"
+    }
+  }
+}
