@@ -543,7 +543,7 @@ sharelink(category_id:string,content_id:string)
 //alert(link);
 
 
-SocialSharing.share(this.title, 'Betweenlifestyle',this.image_path, link).then(() => {
+SocialSharing.share(this.title, 'KCCC',this.image_path, link).then(() => {
   // Success!
 }).catch(() => {
   // Error!
@@ -884,7 +884,7 @@ uploadThumb(fileUri, thumbUri)
   let fileTransfer: FileTransferObject = this.transfer.create();
   let options: FileUploadOptions;
   options = {
-  fileName: 'bwls.jpg',
+  fileName: 'kccc.jpg',
   mimeType: 'image/jpeg',
   chunkedMode: false,
   }
@@ -909,7 +909,7 @@ uploadVideo(fileUri, thumbPath)
   let fileTransfer: FileTransferObject = this.transfer.create();
   let options: FileUploadOptions;
   options = {
-    fileName: 'bwls.mp4',
+    fileName: 'kccc.mp4',
     mimeType: 'video/mp4',
     chunkedMode: false,
   }

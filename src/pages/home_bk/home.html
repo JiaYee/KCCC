@@ -3,14 +3,13 @@
       <button ion-button  clear menuToggle >
  <img src="assets/head_logo.png"  class="logo_head"/>
       </button>
-   
+
  <ion-buttons end>
         <button ion-button  (click)="presentPopover($event)">
       <ion-icon name="more"></ion-icon>
       </button>
  </ion-buttons>
 
-    <ion-title>Between Lifestyle</ion-title>
 
   </ion-navbar>
  <ion-searchbar *ngIf="showme" (ionInput)="getItems($event)" [showCancelButton]="shouldShowCancel"  (ionCancel)="onCancel($event)">></ion-searchbar>

@@ -1271,12 +1271,6 @@ var Servercon = (function () {
         this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({
             headers: this.HeaderURL
         });
-        // this.ServerURL="http://betweenlifestyle.com/android/webservice/public-v4/";
-        // this.ServerURLi="http://betweenlifestyle.com/android/webservice/public-v3/";
-        // this.fileURL = "http://betweenlifestyle.com/android/upload/";
-        // this.options = new RequestOptions({
-        //       headers: this.HeaderURL
-        // });
     }
     Servercon.prototype.deleteGallery = function (param, page) {
         var _this = this;
@@ -1354,7 +1348,6 @@ var Servercon = (function () {
     Servercon.prototype.insertContent = function (param, page) {
         var _this = this;
         console.log('param', param);
-        // let yy = 'website_url=&weekend_business_hour=&category_id=16&phone_mobile=&weekday_business_hour=&phone_office=&name=JJ Hotel &image_path=http://betweenlifestyle.com/android/upload/no_photo.png&type=0&address=&desc=&latitude=3.0312371&longitude=101.61576'
         return new Promise(function (resolve) {
             _this.http.post(_this.ServerURL + page, param, _this.options)
                 .map(function (res) { return res.json(); })
@@ -2693,7 +2686,6 @@ var AddcontentPage = (function () {
                     }
                     else {
                         console.log('ni imgae');
-                        // this.insertContent('http://202.71.107.231:81/betweenai/no_photo.png', this.retrieveForm);
                     }
                 }
             }, function (err) {
@@ -3792,7 +3784,7 @@ var DetailPage = (function () {
     DetailPage.prototype.sharelink = function (category_id, content_id) {
         var link = this.ss.ServerURL + "content.php?id=" + category_id + "&content_id=" + content_id;
         //alert(link);
-        __WEBPACK_IMPORTED_MODULE_2_ionic_native__["j" /* SocialSharing */].share(this.title, 'Betweenlifestyle', this.image_path, link).then(function () {
+        __WEBPACK_IMPORTED_MODULE_2_ionic_native__["j" /* SocialSharing */].share(this.title, 'KCCC', this.image_path, link).then(function () {
             // Success!
         }).catch(function () {
             // Error!
@@ -4023,8 +4015,8 @@ var DetailPage = (function () {
             outputFileName: "output_" + this.oriname,
             outputFileType: this.videoEditor.OutputFileType.MPEG4,
             maintainAspectRatio: true,
-            width: 640,
-            height: 640,
+            width: 1920,
+            height: 1200,
         };
         this.videoEditor.transcodeVideo(options)
             .then(function (fileUri) {
@@ -4058,7 +4050,7 @@ var DetailPage = (function () {
         var fileTransfer = this.transfer.create();
         var options;
         options = {
-            fileName: 'bwls.jpg',
+            fileName: 'kccc.jpg',
             mimeType: 'image/jpeg',
             chunkedMode: false,
         };
@@ -4079,7 +4071,7 @@ var DetailPage = (function () {
         var fileTransfer = this.transfer.create();
         var options;
         options = {
-            fileName: 'bwls.mp4',
+            fileName: 'kccc.mp4',
             mimeType: 'video/mp4',
             chunkedMode: false,
         };
