@@ -388,9 +388,9 @@ export class HomePage {
         });
   }
 
-  goBLS()
+  goFave()
   {
-    window.open("http://www.citytour.com.my/")
+    this.navCtrl.push(FavePage);
   }
 
   updateMainCat() {
